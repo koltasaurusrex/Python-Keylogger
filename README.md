@@ -1,30 +1,40 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+## This software is only to be used on your personal equipment. __Not For Illegal Use!!__
 
-{Provide a description the software that you wrote to demonstrate the Python language.}
+Keylogger.py records the input typed into the computer that it is installed on and writes the inputs
+to a keylog.txt file in the same directory that the keylogger is run from. Whole words are written
+to the keylog.txt file so that it is easier to read.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
+This was my introduction to keyloggers and an opportunity to learn more about cybersecurity tools
+and Python.
 
 [Software Demo Video](http://youtube.link.goes.here)
 
+
+# How to Use
+
+Administrative privileges are needed to run keylogger.py. I have only tested it on a Linux
+system. Windows may need Window's Defender turned off or an exception added. Once started
+the keylogger will continually capture keys until turned off by pressing the escape key
+from anywhere not just from the terminal. Open keylog.txt to view recorded keys.
+
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+- Written using python 3
+  - Inputs handled with boppreh's keyboard library
+  - Timing
 
 {Describe the programming language that you used and any libraries.}
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [CYBR/how-i-made-a-python-keylogger-that-sends-emails](https://cybr.com/cybersecurity/how-i-made-a-python-keylogger-that-sends-emails/)
+* [Python keyboard library](https://github.com/boppreh/keyboard#keyboard.wait)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Handle capitals being formatted into the keylog.txt file.
+* Give user option to choose where keylog.txt is saved.
+* Enable option to automatically send keylog.txt to email.
