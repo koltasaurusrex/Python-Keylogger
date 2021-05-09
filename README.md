@@ -9,7 +9,7 @@ to the keylog.txt file so that it is easier to read.
 This was my introduction to keyloggers and an opportunity to learn more about cybersecurity tools
 and Python.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/koITmz3x4Ec)
 
 
 # How to Use
@@ -22,10 +22,9 @@ from anywhere not just from the terminal. Open keylog.txt to view recorded keys.
 # Development Environment
 
 - Written using python 3
-  - Inputs handled with boppreh's keyboard library
-  - Timing
+  - Inputs handled with boppreh's keyboard library.
+  - Timing was accomplished using the Timing class from the Threaded library.
 
-{Describe the programming language that you used and any libraries.}
 
 # Useful Websites
 
