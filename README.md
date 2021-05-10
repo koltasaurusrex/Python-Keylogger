@@ -14,6 +14,10 @@ and Python.
 
 # How to Use
 
+Install: keyboard and thread libraries
+
+`pip install keyboard thread`
+
 Administrative privileges are needed to run keylogger.py. I have only tested it on a Linux
 system. Windows may need Window's Defender turned off or an exception added. Once started
 the keylogger will continually capture keys until turned off by pressing the escape key
